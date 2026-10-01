@@ -1,0 +1,62 @@
+Key Features Included
+
+Activity Categories:
+
+🎭 Cultural Activities: Music, Classical & Western Dance Battles, Dramatics, and Annual Campus Fests.
+💡 ASPDC Club (Academic & Skill Personality Development Club): Group Discussion & HR Masterclasses, 24-Hour Campus Hackathons, Aptitude Sessions, and Public Speaking.
+⚽ Sports & Athletics: Inter-Department Cricket Tournaments, Football League, Badminton & Table Tennis Opens, and Athletic Meets.
+🤝 Other Campus Activities: NSS Blood Donation Drives, Tree Plantation, Community Volunteering, and Tech Fest Operations.
+
+🎓 Student Participation Report & Portfolio:
+
+Real-Time Participation Log: Displays every activity the student is enrolled in or has completed, categorized by Cultural, ASPDC, Sports, or Others.
+Activity Credits / Points: Tracks official extracurricular credits (+20, +40 Pts) tied directly to verified attendance.
+Official Digital Certificate Modal: Instant preview of certificates of participation and excellence with certificate serial numbers, verification authorities, and student details.
+Downloadable Academic Transcript: Consolidated report generator ready for campus placements, accreditation dossiers, and resume building.
+
+👥 Dual Portal (Students & Club Coordinators / Admins):
+
+Student Portal: Browse upcoming events, filter by club/category, one-tap registration, and view personal activity reports.
+Admin / Club Lead Portal:
+Publish New Activities: Define title, category (ASPDC, Cultural, Sports, Other), venue, coordinator, and activity credits.
+Verify Student Attendance: Select an event, view registered students, and mark them as Attended & Verified, Award Winner / Prize (with custom awards notes), or Absent.
+Campus Master Roster: Export campus-wide participation analytics.
+📂 Codebase Structure
+pubspec.yaml: Flutter configuration.
+lib/main.dart: App entry point with a bottom navigation shell.
+Data & Models:
+activity.dart: Activity model & ActivityCategory enum.
+participation.dart: Student participation records & attendance status.
+student.dart: Student profile and academic details.
+club.dart: ASPDC, Cultural, Sports, and NSS club models.
+campus_repository.dart: State management, pre-seeded data, and reporting methods.
+UI & Features:
+dashboard_view.dart: Home view with category shortcuts, student credit balance, and role switcher.
+activity_list_view.dart: Search, filter by category chips, and activity cards.
+activity_detail_view.dart: Full event specs and registration flow.
+student_report_view.dart: Comprehensive student participation report & portfolio.
+certificate_dialog.dart: Verification certificate preview.
+club_list_view.dart: Directory of campus clubs & focus areas.
+admin_dashboard_view.dart: Coordinator dashboard.
+create_activity_view.dart: Create new campus activities.
+attendance_management_view.dart: Mark attendance and assign prize positions.
+🚀 How to Run the App
+
+Open your terminal and navigate to the project directory:
+
+powershell
+cd C:\Users\HP\.gemini\antigravity\scratch\campus_activity_hub
+
+Fetch the Flutter dependencies:
+
+powershell
+flutter pub get
+
+Launch on your connected emulator, device, or web browser:
+
+powershell
+flutter run
+
+TIP
+
+You can set C:\Users\HP\.gemini\antigravity\scratch\campus_activity_hub as your active workspace in your IDE (VS Code or Android Studio) for hot-reload and debugging.
